@@ -32,9 +32,9 @@ This company device data was recorded between **2016-05-26** to **2020-10-11**.\
 It contains the data of orders at different restaurants.
 
 ## Built with
-Python 3.10.11\
-Google Colab\
-Tableau
++ Python 3.10.11
++ Google Colab
++ Tableau
 
 ## Author
 Chirag Arya - Github [Profile](https://github.com/AryaChirag)
