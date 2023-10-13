@@ -37,4 +37,4 @@ It contains the data of orders at different restaurants.
 + Tableau
 
 ## Author
-Chirag Arya - Github [Profile](https://github.com/AryaChirag)
+Chirag Arya - [Github Profile](https://github.com/AryaChirag)
