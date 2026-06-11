@@ -1,40 +1,169 @@
 # Tiller by SumUp
-## Goal of the project
-The purpose of this project is to deep dive into the dataset of Tiller, a business app, that shows all the spending of their customers in one simple dashboard. As London-based global payment services provider SumUp which mainly owns mobile point-of-sale (mPOS) acquired Tiller in 2021, I analyzed their data from devices with main Business Objectives:
-- Highlight how data can be leveraged to grow a customer's business i.e. restaurant in this project.
-- Provide a simple-to-use dashboard for business owners
+![Python](https://img.shields.io/badge/Python-blue)
+![Pandas](https://img.shields.io/badge/Pandas-black)
+![Tableau](https://img.shields.io/badge/Tableau-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-## Tableau Dashboard
-The interactive Dashboard based upon three metrics segmentation is shown in the image below while the subsequent link is also attached. The metrics are:
-1. Revenue overview
-2. Payment types and performance
-3. Product segmentation
+Restaurant sales analytics using Python and Tableau to uncover revenue trends, payment behaviour, and product performance insights.
 
-![Dashboard](Media/Dashboard.png)
+## 📊 Executive Summary
 
-Click [here](https://public.tableau.com/app/profile/chirag.arya4385/viz/TillerbySumUp/Dashboard1) for an interactive Tableau dashboard.
+- Built an end-to-end restaurant sales analytics pipeline covering data cleaning, transformation, and dashboard development using Python and Tableau
+- Identified key revenue drivers across time, payment methods, and product categories
+- Developed an interactive Tableau dashboard for business insights
 
-## Data Processing and Cleaning
-Data is processed and cleaned with the help of Python libraries by observing:
+## 📌 Project Overview
 
-- Check for missing data with the help of conditional formatting, removing and filling null values of columns\
-- Correctly format required columns and their values
+This project analyses restaurant transaction data from Tiller by SumUp to uncover revenue trends, payment behaviour, and product performance using Python and Tableau.
 
-## Analysis Approach
-The main analysis approach was to understand Revenue distribution over time. Understanding Payment types based upon the times to find the best sales time. Then, in the end, categorize the data into the most profitable categories and products for a restaurant.
+The analysis combines Python-based data cleaning and preparation with Tableau visualisation to provide business owners with an intuitive dashboard for monitoring sales performance and identifying growth opportunities.
 
-## Datasets Used
-The datasets used:
+The dashboard focuses on:
 
-Comes in four Excel sheets from the business owner named Order_data, Order_line, Payment_data, and store_data.\
-All have the same 501 rows with 500 being pure data and the other row being the column headers.\
-This company device data was recorded between **2016-05-26** to **2020-10-11**.\
-It contains the data of orders at different restaurants.
+- Revenue analysis
+- Payment method performance
+- Product category insights
 
-## Built with
-+ Python 3.10.11
-+ Google Colab
-+ Tableau
+---
 
-## Author
-Chirag Arya - [Github Profile](https://github.com/AryaChirag)
+## 🧠 Key Insights
+
+- Revenue shows clear variation across different time periods, indicating seasonal and operational effects.
+- Card payments dominate total transactions, indicating strong customer preference for digital payments.
+- Certain product categories generate a disproportionate share of revenue.
+- Peak sales occur during specific hours, highlighting time-based demand patterns.
+- Product-level analysis highlights opportunities for menu optimisation.
+
+---
+
+## 📊 Tableau Dashboard
+
+The interactive Tableau dashboard is available below:
+
+<!-- 👉 View [Dashboard](https://public.tableau.com/app/profile/chirag.arya4385/viz/TillerbySumUp/Dashboard1) -->
+
+<p align="center">
+  <a href="https://public.tableau.com/app/profile/chirag.arya4385/viz/TillerbySumUp/Dashboard1">
+    <img src="Media/Dashboard.png" width="900"/>
+  </a>
+</p>
+
+---
+
+## 📊 Analysis Performed
+
+The analysis focuses on understanding revenue performance, customer payment behaviour, and product profitability to help restaurant owners make informed business decisions.
+
+### Revenue Analysis
+- Revenue trends over time
+- Peak sales periods
+
+### Payment Analysis
+- Payment method distribution
+- Payment performance comparison
+
+### Product Analysis
+- Product category performance
+- Best-selling products
+- Revenue contribution by category
+
+---
+
+## 🧹 Data Preparation
+
+Data cleaning was performed using Python and included:
+
+- Missing value treatment
+- Data validation
+- Data type standardisation
+- Formatting corrections
+- Dataset merging
+
+---
+
+## 📂 Dataset Information
+
+The dataset consists of four business data tables:
+
+- Order Data
+- Order Line Data
+- Payment Data
+- Store Data
+
+The data contains restaurant transaction records captured between **26 May 2016** and **11 October 2020**.
+
+These datasets were combined to analyse revenue trends, payment behaviour, and product performance.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python (Pandas, NumPy)
+- Jupyter Notebook
+- Google Colab
+- Tableau
+
+---
+
+## 📁 Repository Structure
+
+```text
+Tiller-by-Sumup/
+│
+├── Data_files/
+│
+├── Media/
+│   └── Dashboard.png
+│
+├── notebooks/
+│   └── tiller_data_cleaning.ipynb
+│
+├── tableau/
+│   └── Tiller.twbx
+│
+└── README.md
+```
+
+---
+
+## 💡 Business Recommendations
+
+- Focus marketing efforts during peak revenue periods
+- Promote top-performing products more prominently
+- Encourage preferred payment methods through targeted offers
+- Optimise underperforming product categories
+
+---
+
+## 🚀 Business Impact
+
+This project helps businesses:
+
+- Monitor revenue performance
+- Understand customer payment preferences
+- Identify top-performing products
+- Optimise menu and pricing strategies
+- Support data-driven business decisions
+
+---
+
+## 🚀 Future Improvements
+
+- Automate dashboard refresh processes
+- Incorporate forecasting models
+- Develop customer segmentation analysis
+- Add profitability analysis by product category
+
+---
+
+## 👤 Author
+
+**Chirag Arya**
+
+GitHub: [AryaChirag](https://github.com/AryaChirag)
+
+LinkedIn: [Chirag Arya](https://www.linkedin.com/in/chiragarya/)
+
+-----
+
+⭐ If you found this project interesting, feel free to explore the repository and connect with me on LinkedIn.
