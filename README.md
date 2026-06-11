@@ -12,7 +12,7 @@ The interactive Dashboard based upon three metrics segmentation is shown in the 
 
 ![Dashboard](Media/Dashboard.png)
 
-Click [here](https://public.tableau.com/app/profile/usama.zafar.qureshi/viz/Tiller/Dashboard1) for an interactive tableau dashboard.
+Click [here](https://public.tableau.com/app/profile/chirag.arya4385/viz/TillerbySumUp/Dashboard1) for an interactive Tableau dashboard.
 
 ## Data Processing and Cleaning
 Data is processed and cleaned with the help of Python libraries by observing:
